@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!-- saved from url=(0128)file:///C:/Users/Familia/Documents/Especialidad/Actividad%20de%20acreditacion%202/prueba/Proyecto%20integrador/Cuestionario.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <title>Proyecto integrador</title>
+     
+     <meta name="description" content="template base para proyecto integrado">
+     <meta name="keywords" content="ejemplo, html, etiquetas, css, javascript">  
+     <link rel="stylesheet" type="text/css" href="file:///C:/Users/Familia/Documents/Especialidad/Actividad%20de%20acreditacion%202/prueba/Proyecto%20integrador/miestilo.css">
+     <script type="text/javascript">
+       
+        function guardar(id){
+          alert("Su repuesta ha sido guardada, haz click en Aceptar para continuar");
+       }
+       function computarTest(){
+          alert("Terminaste con el Cuestionario GRACIAS, presiona aceptar para continuar");
+       }
+       
+     </script>
+  </head>
+  <body bgcolor="#A4A4A4">
+
+  
+
+  <title>Título de la página…</title>
+  
+  <meta name="description" content="Descripción de la página…">
+
+
+
+  <h1 id="t1">FOLCLORE ARGENTINO</h1>
+  <h2>CUESTIONARIO DE PREGUNTAS	</h2>
+  
+<style type="text/css">
+  H1 { text-align: center}
+</style>
+<style type="text/css">
+  H2 { text-align: center}
+ </style>
+   
+
+  <article id="preguntas" <fieldset="" <legend="">
+            <h2>1.</h2>
+          
+		  <div>
+          <p>¿Cúal de estos instrumentos es utilizado comúnmente en el tango?</p>
+          <input type="radio" name="gender" value="op1"> Acordeón <br>
+          <input type="radio" name="gender" value="op2"> Bandoneón <br>
+          <input type="radio" name="gender" value="op3"> Charango <br>
+		  <br>
+          <button onclick="guardar(&#39;pregunta1&#39;); mostrar(&#39;pregunta2&#39;)">Guardar respuesta</button>
+        
+		</div>
+      <fieldset id="pregunta2" <legend="">
+          <h2>2.</h2>
+        
+		<div>
+        <p>¿Cúal de las siguientes especies folclóricas pertenece a la región de Cuyo?</p>
+        <input type="radio" name="gender" value="op1"> Tango <br>
+        <input type="radio" name="gender" value="op2"> Chacarera <br>
+        <input type="radio" name="gender" value="op3"> Tonada <br>
+		<br>
+        <button onclick="guardar(&#39;pregunta2&#39;); mostrar(&#39;pregunta3&#39;)">Guardar respuesta</button>
+      </div></fieldset>
+		
+
+      <fieldset id="pregunta3" <legend="">
+          <h2>3.</h2>
+        
+          <p> Tilda los instrumentos que NO son típicos del folclore argentino.  </p>
+          <input type="checkbox" name="checkbox1" value="op1" size="20px"> <img src="./Proyecto integrador cuestionario_files/Guitarra eléctrica.jpg" width="20%"> <br>
+          <input type="checkbox" name="checkbox2" value="op2" size="20px"> <img src="./Proyecto integrador cuestionario_files/Bombo legüero.jpg" width="20%"><br>
+          <input type="checkbox" name="checkbox3" value="op3" size="20px"> <img src="./Proyecto integrador cuestionario_files/Violín.jpg" width="20%"><br>
+          <input type="checkbox" name="checkbox4" value="op4" size="20px"> <img src="./Proyecto integrador cuestionario_files/Bateria.jpg" width="20%"><br>		  
+		  <input type="checkbox" name="checkbox4" value="op4" size="20px"> <img src="./Proyecto integrador cuestionario_files/Siku.jpg" width="20%"><br>
+          <button onclick="guardar(&#39;pregunta3&#39;); mostrar(&#39;pregunta4&#39;)">Guardar respuesta</button>
+
+      </fieldset>
+
+      <fieldset id="pregunta4" <legend="">
+          <h2>4.</h2>
+        
+        <p>El “chango” Spasiuk es un artista destacado de cuál de las siguientes regiones.</p>
+        <input type="radio" name="gender" value="op1"> Centro <br>
+        <input type="radio" name="gender" value="op2"> Noroeste <br>
+        <input type="radio" name="gender" value="op3"> Litoral <br>
+		<br>
+        <button onclick="guardar(&#39;pregunta4&#39;); mostrar(&#39;pregunta5&#39;)">Guardar respuesta</button>
+      </fieldset>
+
+<br><br>
+
+      <fieldset id="pregunta5" <legend="">
+          <h2>5.</h2>
+        
+        <p> ¿En qué fecha se celebra el día de la tradición en Argentina?</p>
+
+<br>
+
+<textarea cols="40" rows="5" name="sugerencias">Escriba aquí su repuesta...</textarea>
+
+<br><br>
+        <button onclick="guardar(&#39;pregunta5&#39;); computarTest()">Guardar respuesta</button>
+      </fieldset>
+
+
+</article>
+
+
+<section>
+<br>
+<br>
+<article id="sonidos">
+    Himno Nacional Argentino<br>
+    <audio controls="" loop="" autoplay="true">
+      <source src="6- Himno nacional ARGENTINO en Folklore.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+  </audio>  
+  </article> 
+  
+</section>
+<section>
+<br>
+<br>
+<form action="mailto:fojeda942@isep-cba.edu.ar;%20alvarez131@isep-cba.edu.ar;%20vclerichi169@isep-cba.edu.ar" method="post" enctype="text/plain">
+
+Nombre: <input type="text" name="nombre" size="25" maxlength="50"><br><br>
+
+Apellidos: <input type="text" name="apellidos" size="35" maxlength="100">
+
+<br><br>
+
+Correo electrónico: <input type="text" value="@" name="correo" size="40" maxlength="100">
+
+<br><br>
+
+
+Opinión sobre nuestra página web<br>
+
+<textarea cols="40" rows="5" name="opinion">Escriba aquí su opinión...</textarea>
+
+<br><br>
+
+Tiene alguna sugerencia...
+
+<br>
+
+<textarea cols="40" rows="5" name="sugerencias">Escriba aquí sus sugerencias...</textarea>
+
+<br><br>
+
+¿Cúanto navegas por intenet? (Señala la opción que
+
+más se acerque)<br>
+
+<select name="frecuencia" size="2">
+
+<option value="1">2 horas al día.
+
+</option><option value="2">4 horas al día.
+
+</option><option value="3">10 horas a la semana.
+
+</option><option value="4">20 horas al mes.
+
+</option></select>
+
+<br>
+
+<br>
+
+<table width="50%" border="0" align="center" cellpadding="10" cellspacing="0">
+
+<tbody><tr>
+
+<td><div align="center">
+
+<input type="submit" value="Enviar formulario">
+
+</div></td>
+
+<td><div align="center">
+
+<input type="Reset" value="Borrar formulario">
+
+</div></td>
+
+</tr>
+
+</tbody></table>
+
+</form>
+
+  
+</section></body></html>
